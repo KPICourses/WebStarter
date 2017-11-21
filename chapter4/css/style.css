@@ -1,0 +1,26 @@
+.black, .pink, .green {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.black {
+	background-color: black;
+}
+
+.pink {
+	background-color: pink;
+	margin-left: 400px;
+}
+
+.green {
+	background-color: green;
+	margin-left: 800px;
+}
+
+#block {
+	width: 200px;
+	height: 100px;
+	background-color: green;
+	opacity: 1;
+}

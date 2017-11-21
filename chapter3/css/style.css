@@ -1,0 +1,76 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+ul.nav {
+	height: 40px;
+	background-color: #333;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	font-family: 'Tahoma';
+	list-style: none;
+	border-left: 2px solid #333;
+	border-top: 2px solid #333;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+}
+
+ul.nav > li {
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+ul.nav > li > a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 100px;
+	height: 40px;
+	transition: .3s;
+	text-transform: uppercase;
+}
+
+ul.nav > li > a:hover,
+ul.nav > li > a:active {
+	background-color: #555;
+	color: #999;
+	border-bottom: 2px solid #444;
+}
+
+ul.nav > li > ul {
+	display: none;
+	list-style: none;
+}
+
+ul.nav > li:hover ul {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+ul.nav > li > ul > li {
+	width: 150px;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+
+ul.nav > li > ul > li > a {
+	display: block;
+	width: 150px;
+	height: 40px;
+	background-color: #333;
+	text-decoration: none;
+	color: #555;
+	transition: .3s;
+}
+
+ul.nav > li > ul > li > a:hover {
+	background-color: #999;
+}
